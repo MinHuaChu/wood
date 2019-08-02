@@ -1,0 +1,30 @@
+img{
+    width: auto;
+    height: auto;
+    max-width: 5%;
+    max-height: 5%;
+
+    display: inline-block;
+}
+
+
+nav div{
+    float: left;;
+}
+
+section{
+    padding: 200px 0 0 100px;
+    
+}
+h1{
+    font-size: 64px;
+}
+p{
+    font-size: 36px;
+}
+section a{
+    border: 0px solid #000;
+    font-size: 36px;
+    background-color:red;
+    padding: 10px 10px;
+}
