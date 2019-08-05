@@ -6,51 +6,55 @@
 }
 
 body{
-    margin-top: 60px;;
+    margin-top: 60px;
+    background-color:#41240B;
 }
+
+#box{
+    width: 1250px;
+    height: 750px;
+    background-image: url(wood.png);
+    background-size:100%;
+    margin: auto;
+    border-right: #41240B;
+    border-radius: 20px;
+}
+
 
 /* 導覽列區塊 */
 
-/* logo的“a連結”和“img圖片“都要設定display:block */
-
-/* nav{
-    height: 100px;
-} */
-
+/* logo */
 #logo{
-    margin-left: 50px;
-    margin-right: 30px;
     width: 150px;
     height: 30px;
-    
-}
-
-#logo img{
-    max-width: 180%;
-    max-height: 180%;
-}
-
-#logo{
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 10px;
     border: 0px solid rgba(0,0,0,0);
 }
 
+#logo img{
+    max-width: 150%;
+    max-height: 150%;
+}
+/* nav 按鈕 */
 nav ul{
     list-style-type: none;
+    margin-top: 40px;
 }
 
 nav li{
     float: left;
-    
 }
 
 nav li a{
-    display: block;
-    width: 80px;
+    width: 70px;
     height: 45px;
-    text-align: center;
-    padding: 0 5px;
-    line-height: 50px;
     color: #41240B;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    padding: 0 5px;
 }
 
 nav li a:hover{
@@ -59,47 +63,34 @@ nav li a:hover{
 
 a{
     text-decoration:none;
-    color: #000
 }
-
-
-nav div{
-    float: left;;
-    display: inline-block;
-}
-
-
-
-
-
-
 
 /* 內容區塊 */
 section{
-    margin:100px 0 0 0 ;
-    padding: 100px 0 100px 120px;
     width: 600px;
     height: 400px;
-    
+    margin:100px 0 0 0 ;
+    padding: 80px 0 100px 60px;
 }
+
 h1{
-    font-size: 52px;
     width: 600px;
-    margin-bottom: 30px;
     color: #41240B;
+    font-size: 48px;
+    margin-bottom: 30px;
 }
 p{
-    font-size: 20px;
     width: 500px;
-    margin-bottom: 40px;
+    font-size: 20px;
     color: #9C4823;
+    margin-bottom: 40px;
 }
 section a{
+    font-size: 28px;
     color: white;
     border: 0px solid #000;
-    font-size: 28px;
+    border-radius: 5px;
     background-color:#8B842F;
     padding: 10px 20px;
     margin: 50px 0 0 0;
-
 }
