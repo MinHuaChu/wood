@@ -1,30 +1,105 @@
-img{
-    width: auto;
-    height: auto;
-    max-width: 5%;
-    max-height: 5%;
+*{
+    margin:0;
+    padding:0;
+    border:0.5px solid rgba(0,0,0,0);
+    font-family: "微軟正黑體";
+}
 
-    display: inline-block;
+body{
+    margin-top: 60px;;
+}
+
+/* 導覽列區塊 */
+
+/* logo的“a連結”和“img圖片“都要設定display:block */
+
+/* nav{
+    height: 100px;
+} */
+
+#logo{
+    margin-left: 50px;
+    margin-right: 30px;
+    width: 150px;
+    height: 30px;
+    
+}
+
+#logo img{
+    max-width: 180%;
+    max-height: 180%;
+}
+
+#logo{
+    border: 0px solid rgba(0,0,0,0);
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    
+}
+
+nav li a{
+    display: block;
+    width: 80px;
+    height: 45px;
+    text-align: center;
+    padding: 0 5px;
+    line-height: 50px;
+    color: #41240B;
+}
+
+nav li a:hover{
+    border-bottom: 1px solid  #9C4823;
+}
+
+a{
+    text-decoration:none;
+    color: #000
 }
 
 
 nav div{
     float: left;;
+    display: inline-block;
 }
 
+
+
+
+
+
+
+/* 內容區塊 */
 section{
-    padding: 200px 0 0 100px;
+    margin:100px 0 0 0 ;
+    padding: 100px 0 100px 120px;
+    width: 600px;
+    height: 400px;
     
 }
 h1{
-    font-size: 64px;
+    font-size: 52px;
+    width: 600px;
+    margin-bottom: 30px;
+    color: #41240B;
 }
 p{
-    font-size: 36px;
+    font-size: 20px;
+    width: 500px;
+    margin-bottom: 40px;
+    color: #9C4823;
 }
 section a{
+    color: white;
     border: 0px solid #000;
-    font-size: 36px;
-    background-color:red;
-    padding: 10px 10px;
+    font-size: 28px;
+    background-color:#8B842F;
+    padding: 10px 20px;
+    margin: 50px 0 0 0;
+
 }
